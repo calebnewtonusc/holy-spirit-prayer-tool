@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-[#d2d2d7]">
           <p className="text-xs text-[#aeaeb2] text-center leading-relaxed max-w-2xl mx-auto">
             Scripture quotations taken from the Holy Bible, New International Version® NIV®.
-            This tool is designed to guide Christians toward God — not to replace pastoral care,
+            This tool is designed to guide Christians toward God, not to replace pastoral care,
             church community, or human discipleship. If you are experiencing a mental health crisis,
             please contact a medical professional or call 988.
           </p>
