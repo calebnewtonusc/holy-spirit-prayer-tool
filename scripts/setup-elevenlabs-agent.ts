@@ -42,12 +42,7 @@ async function createAgent(name: string, prompt: string, description: string) {
       tts: {
         // "Rachel" voice — warm, calm, pastoral tone
         voiceId: "21m00Tcm4TlvDq8ikWAM",
-        modelId: "eleven_turbo_v2_5",
-        optimizeStreamingLatency: 3,
-      },
-      asr: {
-        quality: "high",
-        userInputAudioFormat: "pcm_16000",
+        modelId: "eleven_turbo_v2",
       },
       conversation: {
         maxDurationSeconds: 3600, // 1 hour max session
@@ -56,7 +51,6 @@ async function createAgent(name: string, prompt: string, description: string) {
     platformSettings: {
       widget: {
         variant: "full",
-        expandedInitially: true,
       },
     },
   });
